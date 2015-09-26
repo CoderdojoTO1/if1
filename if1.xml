@@ -33,7 +33,7 @@
               </block>
             </value>
             <next>
-              <block type="movement_right" id="444"></block>
+              <block type="movement_reverse" id="461"></block>
             </next>
           </block>
         </statement>
