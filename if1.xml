@@ -26,14 +26,14 @@
         </value>
         <statement name="DO0">
           <block type="led_select" id="192" inline="true">
-            <field name="ACTION">OFF</field>
+            <field name="ACTION">FLASH</field>
             <value name="LED">
               <block type="math_number" id="193">
                 <field name="NUM">5</field>
               </block>
             </value>
             <next>
-              <block type="movement_reverse" id="461"></block>
+              <block type="movement_right" id="472"></block>
             </next>
           </block>
         </statement>
