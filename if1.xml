@@ -8,6 +8,7 @@
     </value>
     <statement name="DO">
       <block type="controls_if" id="54" inline="false">
+        <mutation else="1"></mutation>
         <value name="IF0">
           <block type="logic_compare" id="170" inline="true">
             <field name="OP">LT</field>
@@ -32,20 +33,19 @@
               </block>
             </value>
             <next>
-              <block type="movement_reverse" id="386">
-                <next>
-                  <block type="robot_delay" id="261" inline="true">
-                    <value name="DELAY">
-                      <block type="math_number" id="262">
-                        <field name="NUM">200</field>
-                      </block>
-                    </value>
-                    <next>
-                      <block type="movement_stop" id="302"></block>
-                    </next>
-                  </block>
-                </next>
+              <block type="movement_right" id="444"></block>
+            </next>
+          </block>
+        </statement>
+        <statement name="ELSE">
+          <block type="robot_delay" id="261" inline="true">
+            <value name="DELAY">
+              <block type="math_number" id="262">
+                <field name="NUM">200</field>
               </block>
+            </value>
+            <next>
+              <block type="movement_stop" id="302"></block>
             </next>
           </block>
         </statement>
